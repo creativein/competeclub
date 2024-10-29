@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ant Design Styles */
+@import 'antd/dist/reset.css';
+
+.ant-btn-primary {
+  background-color: #2563eb !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #1d4ed8 !important;
+}
+
+/* Fix Ant Design Menu styles */
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+
+/* Typography color fixes for dark backgrounds */
+.text-white.ant-typography, 
+.text-white.ant-typography .ant-typography {
+  color: white !important;
+}
